@@ -1,0 +1,54 @@
+.location-card {
+  text-align: left;
+  width: 100%;
+  border: 1px solid rgba(22, 58, 92, 0.12);
+  border-radius: var(--radius-card);
+  padding: 24px 22px;
+  background-color: var(--cream-card);
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.location-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-strong);
+}
+
+.location-icon {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: var(--blue);
+  color: var(--gold-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.location-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.location-description {
+  color: var(--brown-soft);
+  font-size: 0.92rem;
+  margin: 0 0 10px;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.3s ease, margin 0.3s ease;
+}
+
+.location-description.is-open {
+  max-height: 220px;
+  opacity: 1;
+  margin-bottom: 12px;
+}
+
+.location-toggle {
+  font-weight: 700;
+  color: var(--terracotta);
+  font-size: 0.85rem;
+}

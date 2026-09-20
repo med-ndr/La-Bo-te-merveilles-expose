@@ -1,0 +1,15 @@
+::selection {
+  background: var(--gold-light);
+  color: var(--blue-deep);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--terracotta);
+  border-radius: 10px;
+}

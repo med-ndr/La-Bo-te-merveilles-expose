@@ -1,0 +1,53 @@
+.boite-interactive {
+  display: flex;
+  justify-content: center;
+  padding: 30px 20px 56px;
+  background: var(--cream-soft);
+  border-radius: 28px;
+  margin-bottom: 56px;
+}
+
+.boite-meanings {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.meaning-card {
+  background: var(--cream-card);
+  border-radius: var(--radius-card);
+  padding: 24px 22px;
+  box-shadow: var(--shadow-soft);
+  border: 1px solid rgba(22, 58, 92, 0.1);
+}
+
+.meaning-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: rgba(22, 58, 92, 0.08);
+  color: var(--blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.meaning-card h3 {
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+}
+
+.meaning-card p {
+  color: var(--brown-soft);
+  font-size: 0.92rem;
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .boite-meanings {
+    grid-template-columns: 1fr;
+  }
+}

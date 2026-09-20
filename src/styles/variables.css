@@ -1,0 +1,105 @@
+:root {
+  /* --- Palette : zellige de Fès --- */
+  --cream: #f4ecd8;
+  --cream-soft: #efe3c6;
+  --cream-card: #faf5e6;
+  --blue: #163a5c;
+  --blue-deep: #0e2740;
+  --terracotta: #c1613c;
+  --terracotta-deep: #a24e2e;
+  --brown: #3c2a1e;
+  --brown-soft: #6b5342;
+  --gold: #c99a3a;
+  --gold-light: #e3c576;
+
+  /* --- Typographie --- */
+  --font-display: 'Amiri', 'Georgia', serif;
+  --font-body: 'Karla', 'Segoe UI', sans-serif;
+
+  /* --- Ombres / rayons --- */
+  --shadow-soft: 0 10px 30px rgba(60, 42, 30, 0.12);
+  --shadow-strong: 0 18px 45px rgba(14, 39, 64, 0.25);
+  --radius-card: 18px;
+
+  /* --- Rythme --- */
+  --max-width: 1160px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--brown);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  color: var(--blue);
+  margin: 0;
+  line-height: 1.2;
+}
+
+p {
+  margin: 0 0 1em 0;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font-family: var(--font-body);
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.page {
+  padding-top: 96px;
+  padding-bottom: 80px;
+  min-height: 100vh;
+}
+
+/* Focus visible pour accessibilité clavier */
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 0 18px;
+  }
+}

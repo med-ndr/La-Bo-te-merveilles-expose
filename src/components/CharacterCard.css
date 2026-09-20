@@ -1,0 +1,58 @@
+.character-card {
+  text-align: left;
+  background: var(--cream-card);
+  border: 1px solid rgba(22, 58, 92, 0.1);
+  border-bottom: 4px solid var(--terracotta);
+  border-radius: var(--radius-card);
+  padding: 26px 22px 20px;
+  box-shadow: var(--shadow-soft);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.character-card:hover,
+.character-card:focus-visible {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-strong);
+}
+
+.character-avatar {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: var(--blue);
+  color: var(--gold-light);
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6px;
+}
+
+.character-card h3 {
+  font-size: 1.2rem;
+}
+
+.character-role {
+  color: var(--terracotta);
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.character-short {
+  color: var(--brown-soft);
+  font-size: 0.92rem;
+  flex-grow: 1;
+}
+
+.character-cta {
+  margin-top: 8px;
+  font-weight: 700;
+  color: var(--blue);
+  font-size: 0.88rem;
+}
