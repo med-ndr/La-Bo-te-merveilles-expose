@@ -10,9 +10,10 @@ function Footer() {
           <span>La Boîte à Merveilles</span>
         </div>
         <p className="footer-text">
-          Présentation interactive du roman d'Ahmed Sefrioui — réalisée pour le lycée,
+          Présentation interactive du roman d'Ahmed Sefrioui — réalisée pour le Lycée Mohamed V,
           1ère année du baccalauréat.
         </p>
+        <p className="footer-signature">Créé avec passion par Mohamed EL Karkri</p>
       </div>
     </footer>
   )
