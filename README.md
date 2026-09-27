@@ -30,5 +30,6 @@ src/
 ```
 
 
-## Remarque : Ce site Web a été créé avec React.js à des fins éducatives.
+## Remarque : 
+Ce site Web a été créé avec React.js à des fins éducatives.
 Il présente le roman La Boîte à merveilles d’Ahmed Sefrioui d’une manière simple, interactive et moderne.
