@@ -29,8 +29,6 @@ src/
   styles/       Variables de couleurs/typographie et motifs géométriques
 ```
 
-## Remarque sur le contenu
 
-Les résumés de chapitres sont volontairement simplifiés à des fins pédagogiques.
-Pour toute citation exacte ou détail précis destiné à une évaluation, vérifiez avec
-le texte intégral du roman.
+## Remarque : Ce site Web a été créé avec React.js à des fins éducatives.
+## Il présente le roman La Boîte à merveilles d’Ahmed Sefrioui d’une manière simple, interactive et moderne.
