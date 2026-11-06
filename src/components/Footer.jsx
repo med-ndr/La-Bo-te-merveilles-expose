@@ -13,7 +13,7 @@ function Footer() {
           Présentation interactive du roman d'Ahmed Sefrioui — réalisée pour le Lycée Mohamed V,
           1ère année du baccalauréat.
         </p>
-        <p className="footer-signature">Créé avec passion par Mohamed EL Karkri</p>
+        <p className="footer-signature">Créé avec passion par Mohamed </p>
       </div>
     </footer>
   )
