@@ -1,7 +1,7 @@
 # La Boîte à Merveilles — Présentation interactive
 
 Site web éducatif et interactif sur le roman *La Boîte à Merveilles* d'Ahmed Sefrioui,
-conçu pour une présentation de 1ère année du baccalauréat marocain.
+conçu pour une présentation de 1ère année du baccalauréat .
 
 ## Installation
 
